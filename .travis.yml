@@ -1,0 +1,10 @@
+sudo: required
+language: node_js
+node_js:
+  - "0.10.31"
+before_install:
+  - "curl -L http://git.io/ejPSng | /bin/sh"
+  - "chmod +x travis.sh"
+services:
+  - mongodb
+env: TEST_COMMAND=./travis.sh

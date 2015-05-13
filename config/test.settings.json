@@ -1,0 +1,9 @@
+{
+  "public": {
+    "latestCount": 4,
+    "defaultPageLimit": 100
+  },
+  "private": {
+  },
+  "env": "test"
+}
