@@ -5,7 +5,7 @@
 describe("Story Display", function(){
 
   beforeEach(function(done){
-    jasmine.DEFAULT_TIMEOUT_INTERVAL = 5000;
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
     Meteor.call('storyFactory', 20, function(err, result){
       done();
     });
