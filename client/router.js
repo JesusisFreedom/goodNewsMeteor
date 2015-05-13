@@ -7,7 +7,7 @@ Router.route('/', {
   controller: 'StoriesController'
 });
 
-Router.route('/:slug', {
+Router.route('/story/:slug', {
   name: 'story',
   controller: 'StoriesController'
 });

@@ -1,5 +1,9 @@
 <template name="home">
     <section class="list">
-      {{>paginated}}
+      {{#each list}}
+        <div class="story-link">
+            {{title}}
+        </div>
+      {{/each}}
     </section>
 </template>

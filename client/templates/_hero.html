@@ -1,6 +1,10 @@
 <template name="hero">
   <section class="hero">
-      {{>search}}
-      {{> latest}}
+      {{> search}}
+      {{#each featured}}
+        <div class="story-featured">
+          {{title}}-{{scrapeDate}}
+        </div>
+      {{/each}}
   </section>
 </template>

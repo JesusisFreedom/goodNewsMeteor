@@ -1,7 +1,7 @@
-if (process.env.IS_MIRROR) {
+if (process.env.IS_MIRROR || Meteor.settings.env === 'dev') {
   Meteor.methods({
     storyFactory: function (number) {
-      _(20).times(function () {
+      _(number).times(function () {
         Factory.create('story');
       });
       return true;
