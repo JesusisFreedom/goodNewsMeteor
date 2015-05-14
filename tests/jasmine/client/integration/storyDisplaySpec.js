@@ -6,7 +6,7 @@ describe("Story Display", function(){
 
   beforeEach(function(done){
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
-    Meteor.call('storyFactory', 20, function(err, result){
+    Meteor.call('storyFactory', 200, function(err, result){
       done();
     });
     var sub = Meteor.subscribe('latestStories');
