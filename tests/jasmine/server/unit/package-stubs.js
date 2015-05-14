@@ -7085,7 +7085,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "c470a28fcb21e42255ad5e8f1da21933cb0ee83e"
+                  "value": "a481cf0c69ef0e374069476d7db12e8c5b55df20"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "object",
@@ -7862,7 +7862,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "29ceddd0285942f3c3b34b1a194387e5a3d51b30"
+          "value": "b25c2fb0323dde2882070bdc412c593cad63975c"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -9669,6 +9669,1337 @@ var packageMetadata = {
               "type": "function"
             }
           }
+        }
+      }
+    }
+  },
+  "url": {
+    "URL": {
+      "type": "object"
+    }
+  },
+  "froatsnook:request": {
+    "request": {
+      "type": "function",
+      "members": {
+        "get": {
+          "type": "function"
+        },
+        "head": {
+          "type": "function"
+        },
+        "post": {
+          "type": "function"
+        },
+        "put": {
+          "type": "function"
+        },
+        "patch": {
+          "type": "function"
+        },
+        "del": {
+          "type": "function"
+        },
+        "jar": {
+          "type": "function"
+        },
+        "cookie": {
+          "type": "function"
+        },
+        "defaults": {
+          "type": "function"
+        },
+        "forever": {
+          "type": "function"
+        },
+        "Request": {
+          "type": "function",
+          "members": {
+            "super_": {
+              "type": "function",
+              "refID": 22,
+              "members": {
+                "super_": {
+                  "type": "function",
+                  "members": {
+                    "listenerCount": {
+                      "type": "function"
+                    },
+                    "prototype": {
+                      "type": "object",
+                      "members": {
+                        "setMaxListeners": {
+                          "type": "function",
+                          "refID": 27
+                        },
+                        "emit": {
+                          "type": "function",
+                          "refID": 29
+                        },
+                        "addListener": {
+                          "type": "function",
+                          "refID": 31
+                        },
+                        "on": {
+                          "ref": 31
+                        },
+                        "once": {
+                          "type": "function",
+                          "refID": 33
+                        },
+                        "removeListener": {
+                          "type": "function",
+                          "refID": 35
+                        },
+                        "removeAllListeners": {
+                          "type": "function",
+                          "refID": 37
+                        },
+                        "listeners": {
+                          "type": "function",
+                          "refID": 39
+                        }
+                      }
+                    }
+                  }
+                },
+                "Readable": {
+                  "type": "function",
+                  "refID": 41,
+                  "members": {
+                    "ReadableState": {
+                      "type": "function"
+                    },
+                    "super_": {
+                      "ref": 22
+                    },
+                    "prototype": {
+                      "type": "object",
+                      "members": {
+                        "push": {
+                          "type": "function",
+                          "refID": 45
+                        },
+                        "unshift": {
+                          "type": "function",
+                          "refID": 47
+                        },
+                        "setEncoding": {
+                          "type": "function",
+                          "refID": 49
+                        },
+                        "read": {
+                          "type": "function",
+                          "refID": 51
+                        },
+                        "pipe": {
+                          "type": "function",
+                          "refID": 53
+                        },
+                        "unpipe": {
+                          "type": "function",
+                          "refID": 55
+                        },
+                        "on": {
+                          "type": "function",
+                          "refID": 57
+                        },
+                        "addListener": {
+                          "ref": 57
+                        },
+                        "resume": {
+                          "type": "function",
+                          "refID": 59
+                        },
+                        "pause": {
+                          "type": "function",
+                          "refID": 61
+                        },
+                        "wrap": {
+                          "type": "function",
+                          "refID": 63
+                        },
+                        "setMaxListeners": {
+                          "ref": 27
+                        },
+                        "emit": {
+                          "ref": 29
+                        },
+                        "once": {
+                          "ref": 33
+                        },
+                        "removeListener": {
+                          "ref": 35
+                        },
+                        "removeAllListeners": {
+                          "ref": 37
+                        },
+                        "listeners": {
+                          "ref": 39
+                        }
+                      }
+                    }
+                  }
+                },
+                "Writable": {
+                  "type": "function",
+                  "members": {
+                    "WritableState": {
+                      "type": "function"
+                    },
+                    "super_": {
+                      "ref": 22
+                    },
+                    "prototype": {
+                      "type": "object",
+                      "members": {
+                        "pipe": {
+                          "type": "function"
+                        },
+                        "write": {
+                          "type": "function",
+                          "refID": 71
+                        },
+                        "end": {
+                          "type": "function",
+                          "refID": 73
+                        },
+                        "setMaxListeners": {
+                          "ref": 27
+                        },
+                        "emit": {
+                          "ref": 29
+                        },
+                        "addListener": {
+                          "ref": 31
+                        },
+                        "on": {
+                          "ref": 31
+                        },
+                        "once": {
+                          "ref": 33
+                        },
+                        "removeListener": {
+                          "ref": 35
+                        },
+                        "removeAllListeners": {
+                          "ref": 37
+                        },
+                        "listeners": {
+                          "ref": 39
+                        }
+                      }
+                    }
+                  }
+                },
+                "Duplex": {
+                  "type": "function",
+                  "refID": 75,
+                  "members": {
+                    "super_": {
+                      "ref": 41
+                    },
+                    "prototype": {
+                      "type": "object",
+                      "members": {
+                        "write": {
+                          "ref": 71
+                        },
+                        "end": {
+                          "ref": 73
+                        },
+                        "push": {
+                          "ref": 45
+                        },
+                        "unshift": {
+                          "ref": 47
+                        },
+                        "setEncoding": {
+                          "ref": 49
+                        },
+                        "read": {
+                          "ref": 51
+                        },
+                        "pipe": {
+                          "ref": 53
+                        },
+                        "unpipe": {
+                          "ref": 55
+                        },
+                        "on": {
+                          "ref": 57
+                        },
+                        "addListener": {
+                          "ref": 57
+                        },
+                        "resume": {
+                          "ref": 59
+                        },
+                        "pause": {
+                          "ref": 61
+                        },
+                        "wrap": {
+                          "ref": 63
+                        },
+                        "setMaxListeners": {
+                          "ref": 27
+                        },
+                        "emit": {
+                          "ref": 29
+                        },
+                        "once": {
+                          "ref": 33
+                        },
+                        "removeListener": {
+                          "ref": 35
+                        },
+                        "removeAllListeners": {
+                          "ref": 37
+                        },
+                        "listeners": {
+                          "ref": 39
+                        }
+                      }
+                    }
+                  }
+                },
+                "Transform": {
+                  "type": "function",
+                  "refID": 77,
+                  "members": {
+                    "super_": {
+                      "ref": 75
+                    },
+                    "prototype": {
+                      "type": "object",
+                      "members": {
+                        "push": {
+                          "type": "function",
+                          "refID": 79
+                        },
+                        "write": {
+                          "ref": 71
+                        },
+                        "end": {
+                          "ref": 73
+                        },
+                        "unshift": {
+                          "ref": 47
+                        },
+                        "setEncoding": {
+                          "ref": 49
+                        },
+                        "read": {
+                          "ref": 51
+                        },
+                        "pipe": {
+                          "ref": 53
+                        },
+                        "unpipe": {
+                          "ref": 55
+                        },
+                        "on": {
+                          "ref": 57
+                        },
+                        "addListener": {
+                          "ref": 57
+                        },
+                        "resume": {
+                          "ref": 59
+                        },
+                        "pause": {
+                          "ref": 61
+                        },
+                        "wrap": {
+                          "ref": 63
+                        },
+                        "setMaxListeners": {
+                          "ref": 27
+                        },
+                        "emit": {
+                          "ref": 29
+                        },
+                        "once": {
+                          "ref": 33
+                        },
+                        "removeListener": {
+                          "ref": 35
+                        },
+                        "removeAllListeners": {
+                          "ref": 37
+                        },
+                        "listeners": {
+                          "ref": 39
+                        }
+                      }
+                    }
+                  }
+                },
+                "PassThrough": {
+                  "type": "function",
+                  "members": {
+                    "super_": {
+                      "ref": 77
+                    },
+                    "prototype": {
+                      "type": "object",
+                      "members": {
+                        "push": {
+                          "ref": 79
+                        },
+                        "write": {
+                          "ref": 71
+                        },
+                        "end": {
+                          "ref": 73
+                        },
+                        "unshift": {
+                          "ref": 47
+                        },
+                        "setEncoding": {
+                          "ref": 49
+                        },
+                        "read": {
+                          "ref": 51
+                        },
+                        "pipe": {
+                          "ref": 53
+                        },
+                        "unpipe": {
+                          "ref": 55
+                        },
+                        "on": {
+                          "ref": 57
+                        },
+                        "addListener": {
+                          "ref": 57
+                        },
+                        "resume": {
+                          "ref": 59
+                        },
+                        "pause": {
+                          "ref": 61
+                        },
+                        "wrap": {
+                          "ref": 63
+                        },
+                        "setMaxListeners": {
+                          "ref": 27
+                        },
+                        "emit": {
+                          "ref": 29
+                        },
+                        "once": {
+                          "ref": 33
+                        },
+                        "removeListener": {
+                          "ref": 35
+                        },
+                        "removeAllListeners": {
+                          "ref": 37
+                        },
+                        "listeners": {
+                          "ref": 39
+                        }
+                      }
+                    }
+                  }
+                },
+                "Stream": {
+                  "ref": 22
+                },
+                "prototype": {
+                  "type": "object",
+                  "members": {
+                    "pipe": {
+                      "type": "function"
+                    },
+                    "setMaxListeners": {
+                      "ref": 27
+                    },
+                    "emit": {
+                      "ref": 29
+                    },
+                    "addListener": {
+                      "ref": 31
+                    },
+                    "on": {
+                      "ref": 31
+                    },
+                    "once": {
+                      "ref": 33
+                    },
+                    "removeListener": {
+                      "ref": 35
+                    },
+                    "removeAllListeners": {
+                      "ref": 37
+                    },
+                    "listeners": {
+                      "ref": 39
+                    }
+                  }
+                }
+              }
+            },
+            "debug": {
+              "type": "undefined"
+            },
+            "defaultProxyHeaderWhiteList": {
+              "type": "array"
+            },
+            "defaultProxyHeaderExclusiveList": {
+              "type": "array"
+            },
+            "prototype": {
+              "type": "object",
+              "members": {
+                "setupTunnel": {
+                  "type": "function"
+                },
+                "init": {
+                  "type": "function"
+                },
+                "getNewAgent": {
+                  "type": "function"
+                },
+                "start": {
+                  "type": "function"
+                },
+                "onRequestError": {
+                  "type": "function"
+                },
+                "onRequestResponse": {
+                  "type": "function"
+                },
+                "abort": {
+                  "type": "function"
+                },
+                "pipeDest": {
+                  "type": "function"
+                },
+                "qs": {
+                  "type": "function"
+                },
+                "form": {
+                  "type": "function"
+                },
+                "multipart": {
+                  "type": "function"
+                },
+                "json": {
+                  "type": "function"
+                },
+                "getHeader": {
+                  "type": "function"
+                },
+                "auth": {
+                  "type": "function"
+                },
+                "aws": {
+                  "type": "function"
+                },
+                "httpSignature": {
+                  "type": "function"
+                },
+                "hawk": {
+                  "type": "function"
+                },
+                "oauth": {
+                  "type": "function"
+                },
+                "jar": {
+                  "type": "function"
+                },
+                "pipe": {
+                  "type": "function"
+                },
+                "write": {
+                  "type": "function"
+                },
+                "end": {
+                  "type": "function"
+                },
+                "pause": {
+                  "type": "function"
+                },
+                "resume": {
+                  "type": "function"
+                },
+                "destroy": {
+                  "type": "function"
+                },
+                "toJSON": {
+                  "type": "function"
+                },
+                "setMaxListeners": {
+                  "ref": 27
+                },
+                "emit": {
+                  "ref": 29
+                },
+                "addListener": {
+                  "ref": 31
+                },
+                "on": {
+                  "ref": 31
+                },
+                "once": {
+                  "ref": 33
+                },
+                "removeListener": {
+                  "ref": 35
+                },
+                "removeAllListeners": {
+                  "ref": 37
+                },
+                "listeners": {
+                  "ref": 39
+                }
+              }
+            }
+          }
+        },
+        "initParams": {
+          "type": "function"
+        },
+        "debug": {
+          "type": "undefined"
+        },
+        "putSync": {
+          "type": "function"
+        },
+        "patchSync": {
+          "type": "function"
+        },
+        "postSync": {
+          "type": "function"
+        },
+        "headSync": {
+          "type": "function"
+        },
+        "delSync": {
+          "type": "function"
+        },
+        "getSync": {
+          "type": "function"
+        },
+        "sync": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "nefiltari:yaki": {
+    "Yaki": {
+      "type": "function",
+      "members": {
+        "Vocabulary": {
+          "type": "object",
+          "members": {
+            "support": {
+              "type": "array"
+            },
+            "letters": {
+              "type": "constant",
+              "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÜÖabcdefghijklmnopqrstuvwxyzäüöß0123456789"
+            },
+            "lowercase": {
+              "type": "constant",
+              "value": "abcdefghijklmnopqrstuvwxyzäüöß"
+            },
+            "uppercase": {
+              "type": "constant",
+              "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÜÖ"
+            },
+            "numbers": {
+              "type": "constant",
+              "value": "0123456789"
+            },
+            "en": {
+              "type": "object",
+              "members": {
+                "lowercase": {
+                  "type": "constant",
+                  "value": "abcdefghijklmnopqrstuvwxyz"
+                },
+                "uppercase": {
+                  "type": "constant",
+                  "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                },
+                "frequencies": {
+                  "type": "object",
+                  "members": {
+                    "a": {
+                      "type": "constant",
+                      "value": 0.08167
+                    },
+                    "b": {
+                      "type": "constant",
+                      "value": 0.01492
+                    },
+                    "c": {
+                      "type": "constant",
+                      "value": 0.02782
+                    },
+                    "d": {
+                      "type": "constant",
+                      "value": 0.04253
+                    },
+                    "e": {
+                      "type": "constant",
+                      "value": 0.12702
+                    },
+                    "f": {
+                      "type": "constant",
+                      "value": 0.02228
+                    },
+                    "g": {
+                      "type": "constant",
+                      "value": 0.02015
+                    },
+                    "h": {
+                      "type": "constant",
+                      "value": 0.06094
+                    },
+                    "i": {
+                      "type": "constant",
+                      "value": 0.06966
+                    },
+                    "j": {
+                      "type": "constant",
+                      "value": 0.00153
+                    },
+                    "k": {
+                      "type": "constant",
+                      "value": 0.00772
+                    },
+                    "l": {
+                      "type": "constant",
+                      "value": 0.04025
+                    },
+                    "m": {
+                      "type": "constant",
+                      "value": 0.02406
+                    },
+                    "n": {
+                      "type": "constant",
+                      "value": 0.06749
+                    },
+                    "o": {
+                      "type": "constant",
+                      "value": 0.07507
+                    },
+                    "p": {
+                      "type": "constant",
+                      "value": 0.01929
+                    },
+                    "q": {
+                      "type": "constant",
+                      "value": 0.00095
+                    },
+                    "r": {
+                      "type": "constant",
+                      "value": 0.05987
+                    },
+                    "s": {
+                      "type": "constant",
+                      "value": 0.06327
+                    },
+                    "t": {
+                      "type": "constant",
+                      "value": 0.09056
+                    },
+                    "u": {
+                      "type": "constant",
+                      "value": 0.02758
+                    },
+                    "v": {
+                      "type": "constant",
+                      "value": 0.00978
+                    },
+                    "w": {
+                      "type": "constant",
+                      "value": 0.0236
+                    },
+                    "x": {
+                      "type": "constant",
+                      "value": 0.0015
+                    },
+                    "y": {
+                      "type": "constant",
+                      "value": 0.01974
+                    },
+                    "z": {
+                      "type": "constant",
+                      "value": 0.00074
+                    }
+                  }
+                }
+              }
+            },
+            "de": {
+              "type": "object",
+              "members": {
+                "lowercase": {
+                  "type": "constant",
+                  "value": "abcdefghijklmnopqrstuvwxyzäüöß"
+                },
+                "uppercase": {
+                  "type": "constant",
+                  "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÜÖ"
+                },
+                "frequencies": {
+                  "type": "object",
+                  "members": {
+                    "a": {
+                      "type": "constant",
+                      "value": 0.06516
+                    },
+                    "b": {
+                      "type": "constant",
+                      "value": 0.01886
+                    },
+                    "c": {
+                      "type": "constant",
+                      "value": 0.02732
+                    },
+                    "d": {
+                      "type": "constant",
+                      "value": 0.05076
+                    },
+                    "e": {
+                      "type": "constant",
+                      "value": 0.16396
+                    },
+                    "f": {
+                      "type": "constant",
+                      "value": 0.01656
+                    },
+                    "g": {
+                      "type": "constant",
+                      "value": 0.03009
+                    },
+                    "h": {
+                      "type": "constant",
+                      "value": 0.04577
+                    },
+                    "i": {
+                      "type": "constant",
+                      "value": 0.0655
+                    },
+                    "j": {
+                      "type": "constant",
+                      "value": 0.00268
+                    },
+                    "k": {
+                      "type": "constant",
+                      "value": 0.01417
+                    },
+                    "l": {
+                      "type": "constant",
+                      "value": 0.03437
+                    },
+                    "m": {
+                      "type": "constant",
+                      "value": 0.02534
+                    },
+                    "n": {
+                      "type": "constant",
+                      "value": 0.09776
+                    },
+                    "o": {
+                      "type": "constant",
+                      "value": 0.02594
+                    },
+                    "p": {
+                      "type": "constant",
+                      "value": 0.0067
+                    },
+                    "q": {
+                      "type": "constant",
+                      "value": 0.00018
+                    },
+                    "r": {
+                      "type": "constant",
+                      "value": 0.07003
+                    },
+                    "s": {
+                      "type": "constant",
+                      "value": 0.07273
+                    },
+                    "t": {
+                      "type": "constant",
+                      "value": 0.06154
+                    },
+                    "u": {
+                      "type": "constant",
+                      "value": 0.04166
+                    },
+                    "v": {
+                      "type": "constant",
+                      "value": 0.00846
+                    },
+                    "w": {
+                      "type": "constant",
+                      "value": 0.01921
+                    },
+                    "x": {
+                      "type": "constant",
+                      "value": 0.00034
+                    },
+                    "y": {
+                      "type": "constant",
+                      "value": 0.00039
+                    },
+                    "z": {
+                      "type": "constant",
+                      "value": 0.01134
+                    },
+                    "ä": {
+                      "type": "constant",
+                      "value": 0.00447
+                    },
+                    "ö": {
+                      "type": "constant",
+                      "value": 0.00573
+                    },
+                    "ü": {
+                      "type": "constant",
+                      "value": 0.00995
+                    },
+                    "ß": {
+                      "type": "constant",
+                      "value": 0.00307
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Stopwords": {
+          "type": "object",
+          "members": {
+            "de": {
+              "type": "array"
+            },
+            "en": {
+              "type": "array"
+            }
+          }
+        },
+        "Configuration": {
+          "type": "object",
+          "members": {
+            "en": {
+              "type": "object",
+              "members": {
+                "k": {
+                  "type": "constant",
+                  "value": 4
+                },
+                "similarity": {
+                  "type": "constant",
+                  "value": 0.6
+                },
+                "entropieStrength": {
+                  "type": "constant",
+                  "value": 3
+                },
+                "frequencyCoefficient": {
+                  "type": "constant",
+                  "value": 1
+                },
+                "capitalizeBonus": {
+                  "type": "constant",
+                  "value": 10
+                },
+                "akkronymBonus": {
+                  "type": "constant",
+                  "value": 15
+                },
+                "positionCoefficient": {
+                  "type": "constant",
+                  "value": 1
+                },
+                "tagBonus": {
+                  "type": "constant",
+                  "value": 20
+                },
+                "combinationOccurences": {
+                  "type": "constant",
+                  "value": 2
+                },
+                "minQuality": {
+                  "type": "constant",
+                  "value": 3
+                }
+              }
+            },
+            "de": {
+              "type": "object",
+              "members": {
+                "k": {
+                  "type": "constant",
+                  "value": 4
+                },
+                "similarity": {
+                  "type": "constant",
+                  "value": 0.45
+                },
+                "entropieStrength": {
+                  "type": "constant",
+                  "value": 2
+                },
+                "frequencyCoefficient": {
+                  "type": "constant",
+                  "value": 1
+                },
+                "capitalizeBonus": {
+                  "type": "constant",
+                  "value": 2
+                },
+                "akkronymBonus": {
+                  "type": "constant",
+                  "value": 15
+                },
+                "positionCoefficient": {
+                  "type": "constant",
+                  "value": 1
+                },
+                "tagBonus": {
+                  "type": "constant",
+                  "value": 20
+                },
+                "combinationOccurences": {
+                  "type": "constant",
+                  "value": 2
+                },
+                "minQuality": {
+                  "type": "constant",
+                  "value": 5
+                }
+              }
+            }
+          }
+        },
+        "inspect": {
+          "type": "function"
+        },
+        "split": {
+          "type": "function"
+        },
+        "normalize": {
+          "type": "function"
+        },
+        "cleans": {
+          "type": "function"
+        },
+        "stem": {
+          "type": "function"
+        },
+        "calculate": {
+          "type": "function"
+        },
+        "combine": {
+          "type": "function"
+        },
+        "rank": {
+          "type": "function"
+        },
+        "clean": {
+          "type": "function"
+        },
+        "extract": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "wizonesolutions:underscore-string": {
+    "_s": {
+      "type": "object",
+      "members": {
+        "VERSION": {
+          "type": "constant",
+          "value": "2.3.0"
+        },
+        "isBlank": {
+          "type": "function"
+        },
+        "stripTags": {
+          "type": "function"
+        },
+        "capitalize": {
+          "type": "function"
+        },
+        "chop": {
+          "type": "function"
+        },
+        "clean": {
+          "type": "function"
+        },
+        "count": {
+          "type": "function"
+        },
+        "chars": {
+          "type": "function"
+        },
+        "swapCase": {
+          "type": "function"
+        },
+        "escapeHTML": {
+          "type": "function"
+        },
+        "unescapeHTML": {
+          "type": "function"
+        },
+        "escapeRegExp": {
+          "type": "function"
+        },
+        "splice": {
+          "type": "function"
+        },
+        "insert": {
+          "type": "function"
+        },
+        "include": {
+          "type": "function",
+          "refID": 27
+        },
+        "join": {
+          "type": "function"
+        },
+        "lines": {
+          "type": "function"
+        },
+        "reverse": {
+          "type": "function"
+        },
+        "startsWith": {
+          "type": "function"
+        },
+        "endsWith": {
+          "type": "function"
+        },
+        "succ": {
+          "type": "function"
+        },
+        "titleize": {
+          "type": "function"
+        },
+        "camelize": {
+          "type": "function"
+        },
+        "underscored": {
+          "type": "function"
+        },
+        "dasherize": {
+          "type": "function"
+        },
+        "classify": {
+          "type": "function"
+        },
+        "humanize": {
+          "type": "function"
+        },
+        "trim": {
+          "type": "function",
+          "refID": 53
+        },
+        "ltrim": {
+          "type": "function",
+          "refID": 55
+        },
+        "rtrim": {
+          "type": "function",
+          "refID": 57
+        },
+        "truncate": {
+          "type": "function"
+        },
+        "prune": {
+          "type": "function"
+        },
+        "words": {
+          "type": "function"
+        },
+        "pad": {
+          "type": "function"
+        },
+        "lpad": {
+          "type": "function",
+          "refID": 67
+        },
+        "rpad": {
+          "type": "function",
+          "refID": 69
+        },
+        "lrpad": {
+          "type": "function",
+          "refID": 71
+        },
+        "sprintf": {
+          "type": "function",
+          "members": {
+            "format": {
+              "type": "function"
+            },
+            "cache": {
+              "type": "object"
+            },
+            "parse": {
+              "type": "function"
+            }
+          }
+        },
+        "vsprintf": {
+          "type": "function"
+        },
+        "toNumber": {
+          "type": "function"
+        },
+        "numberFormat": {
+          "type": "function"
+        },
+        "strRight": {
+          "type": "function"
+        },
+        "strRightBack": {
+          "type": "function"
+        },
+        "strLeft": {
+          "type": "function"
+        },
+        "strLeftBack": {
+          "type": "function"
+        },
+        "toSentence": {
+          "type": "function"
+        },
+        "toSentenceSerial": {
+          "type": "function"
+        },
+        "slugify": {
+          "type": "function"
+        },
+        "surround": {
+          "type": "function"
+        },
+        "quote": {
+          "type": "function",
+          "refID": 102
+        },
+        "unquote": {
+          "type": "function"
+        },
+        "exports": {
+          "type": "function"
+        },
+        "repeat": {
+          "type": "function"
+        },
+        "naturalCmp": {
+          "type": "function"
+        },
+        "levenshtein": {
+          "type": "function"
+        },
+        "toBoolean": {
+          "type": "function",
+          "refID": 114
+        },
+        "strip": {
+          "ref": 53
+        },
+        "lstrip": {
+          "ref": 55
+        },
+        "rstrip": {
+          "ref": 57
+        },
+        "center": {
+          "ref": 71
+        },
+        "rjust": {
+          "ref": 67
+        },
+        "ljust": {
+          "ref": 69
+        },
+        "contains": {
+          "ref": 27
+        },
+        "q": {
+          "ref": 102
+        },
+        "toBool": {
+          "ref": 114
+        }
+      }
+    }
+  },
+  "anonyfox:scrape": {
+    "Scrape": {
+      "type": "object",
+      "members": {
+        "website": {
+          "type": "function"
+        },
+        "feed": {
+          "type": "function"
+        },
+        "wikipedia": {
+          "type": "function"
+        },
+        "url": {
+          "type": "function"
+        }
+      }
+    }
+  },
+  "percolate:synced-cron": {
+    "SyncedCron": {
+      "type": "object",
+      "members": {
+        "options": {
+          "type": "object",
+          "members": {
+            "logger": {
+              "type": "null",
+              "value": null
+            },
+            "collectionName": {
+              "type": "constant",
+              "value": "cronHistory"
+            },
+            "collectionTTL": {
+              "type": "constant",
+              "value": 172800
+            }
+          }
+        },
+        "config": {
+          "type": "function"
+        },
+        "add": {
+          "type": "function"
+        },
+        "start": {
+          "type": "function"
+        },
+        "nextScheduledAtDate": {
+          "type": "function"
+        },
+        "remove": {
+          "type": "function"
+        },
+        "pause": {
+          "type": "function"
+        },
+        "stop": {
+          "type": "function"
         }
       }
     }

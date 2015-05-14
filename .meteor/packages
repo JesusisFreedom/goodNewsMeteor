@@ -17,3 +17,6 @@ meteorhacks:npm
 npm-container
 velocity:console-reporter
 reactive-var
+anonyfox:scrape
+percolate:synced-cron
+momentjs:moment

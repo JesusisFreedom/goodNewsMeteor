@@ -1,5 +1,5 @@
 Meteor.startup(function () {
-  if( Meteor.settings.env === "dev" && Stories.find().count() === 0){
+  if(Meteor.settings.env === "dev" && Stories.find().count() === 0){
     Meteor.call('storyFactory', 20);
   }
 
@@ -11,4 +11,10 @@ Meteor.startup(function () {
   Meteor.publish('stories', function (page) {
     return Meteor.app.StoryService.list(page, Meteor.settings.public.latestCount, Meteor.settings.public.defaultPageLimit);
   });
+
+
+  if(!process.env.isMirror){
+    SyncedCron.start();
+  }
+
 });
