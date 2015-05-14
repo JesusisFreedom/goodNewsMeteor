@@ -30,10 +30,9 @@ describe("Story Display", function(){
 
   it("The list of page * limit stories", function(done){
     expect(Session.get('page')).toBe(0);
-    Session.set('page', 1);
     Meteor.subscribe('stories', Session.get('page'), function() {
-      var count = Meteor.app.StoryService.list(1, 4, 100).fetch().length;
-      expect(count).toBe(200);
+      var count = Meteor.app.StoryService.list(0, 4, 100).fetch().length;
+      expect(Stories.find().count()).toBe(104);
       done();
     });
   });
