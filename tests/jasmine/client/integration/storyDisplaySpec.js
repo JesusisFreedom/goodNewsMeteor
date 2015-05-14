@@ -20,12 +20,20 @@ describe("Story Display", function(){
   beforeEach(waitForRouter);
 
 
-  it("Displays the latest n stories", function(done){
+  it("The latest n stories", function(done){
     Meteor.subscribe('latestStories', function() {
       var count = Meteor.app.StoryService.latest(4).fetch().length;
       expect(count).toBe(4);
-      //var storiesElemGroup = $("#hero .stories .story");
-      //expect(storiesElemGroup.length).toBe(4);
+      done();
+    });
+  });
+
+  it("The list of page * limit stories", function(done){
+    expect(Session.get('page')).toBe(0);
+    Session.set('page', 1);
+    Meteor.subscribe('stories', Session.get('page'), function() {
+      var count = Meteor.app.StoryService.list(1, 4, 100).fetch().length;
+      expect(count).toBe(200);
       done();
     });
   });
